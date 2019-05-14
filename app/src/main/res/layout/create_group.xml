@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <ImageView
+        android:id="@+id/imgClose"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:src="@mipmap/close" />
+
+    <RelativeLayout
+        android:layout_width="440dp"
+        android:layout_height="270dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_panel_relative_layout">
+
+        <RelativeLayout
+            android:id="@+id/editView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <RelativeLayout
+                android:id="@+id/rlName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tvText"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="群名"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_group_name"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/tvName"
+                    android:background="@drawable/bg_panel_edittext"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlDescribe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/rlName"
+                android:layout_marginTop="15dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvPass"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="群描述"
+                    android:textColor="#ffffffff"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/et_group_describe"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_toEndOf="@+id/tvPass"
+                    android:background="@drawable/bg_panel_edittext"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_create_group"
+                android:layout_width="80dp"
+                android:layout_height="38dp"
+                android:layout_below="@id/editView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="15dp"
+                android:background="@mipmap/bg_button"
+                android:text="确认"
+                android:textColor="@color/text_color_90white"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+</RelativeLayout>
+

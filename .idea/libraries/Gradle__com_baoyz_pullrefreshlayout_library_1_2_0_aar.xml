@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.baoyz.pullrefreshlayout:library:1.2.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/10626cfc584743fb1eb10d03c928dae6/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/10626cfc584743fb1eb10d03c928dae6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.2.0.aar/10626cfc584743fb1eb10d03c928dae6/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.baoyz.pullrefreshlayout/library/1.2.0/fb5a21ff8a63a8f3206c773fc323be030771e3b6/library-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
